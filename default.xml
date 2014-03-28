@@ -8,6 +8,9 @@
            fetch="git://github.com/"
            review="https://gerrit.slimroms.net/"/>
 
+  <remote  name="slimX"
+           fetch="git://github.com/SlimXperiments/" />
+
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
@@ -429,7 +432,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="kk4.4" />
+  <project path="platform_manifest" name="platform_manifest" remote="slimX" revision="kk4.4" />
 
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="kk4.4" />
