@@ -5,8 +5,7 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com/"
-           review="https://gerrit.slimroms.net/"/>
+           fetch="git://github.com/" />
 
   <remote  name="slimX"
            fetch="git://github.com/SlimXperiments/" />
