@@ -8,7 +8,7 @@
            fetch="git://github.com/" />
 
   <remote  name="slimX"
-           fetch="git://github.com/SlimXperiments/" />
+           fetch="https://github.com/SlimXperiments/" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
