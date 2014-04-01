@@ -452,7 +452,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
 
-  <project path="vendor/slim" name="SlimXperiments/vendor_slim" remote="github" revision="kk4.4" />
+  <project path="vendor/slim" name="SlimXperiments/vendor_slim" remote="github" revision="slim-master" />
   <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
   <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
