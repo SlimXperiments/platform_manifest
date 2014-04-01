@@ -1,68 +1,23 @@
-Welcome to SlimRoms
+Welcome to SlimXperiments
 ===================
 
+##Warning##
+**This is not for the faint hearted. This is the extreme side of Android. Do NOT use if you do not know what you are doing**
 
 Getting Started
 ---------------
 
-To get started with SlimKat, you'll need to get familiar with
-[Git and Repo](http://source.android.com/download/using-repo).
-
-Please take note that we have two main line branches depending on
-which hardware base your phone is working.
-
-If you have a qcom powered device which needs CodeAuroraForum (CAF)
-trees please us the kk4.4-caf branch which pulls for the effected packages
-the correct caf version for you.
-
-To initialize your local repository using the SlimKat trees, use this command:
-
-
-for google, exynos and non qcom devices:
-
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b kk4.4
-
-
-for qcom devices which are using CodeAuroraForum trees:
-
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b kk4.4-caf
-
-
-
-Then sync up with this command:
-
-	repo sync
+I assume you already know how to start an Android project, so here is the link to use SlimX.
+```shell
+repo init -u git://github.com/SlimXperiments/platform_manifest -b slim-master
+```
+for now, there is no caf branch. Caf devices will feel the pain in the future.
 
 
 
 Submitting Patches
 ------------------
 
-We're open source, and patches are always welcome!
-You can send patches by using these commands:
+Submitting a patch is always welcome, provided it does not break the build.
 
-    cd <workspace>
-    repo start <branch> SlimRoms/<project>
-    cd <project>
-    git add -A
-    git commit -a
-    cd <workspace>
-    repo upload SlimRoms/<project>
-
-Commit your patches in a single commit.
-
-Squash multiple commit using this command:
-
-	git rebase -i HEAD~<# of commits>
-
-If you are going to make extra additions, just repeat steps (Don't repo start again), but instead of
-
-	git commit -a
-
-use
-
-	git commit --amend
-
-Gerrit will recognize it as a new patchset.
-
-To view the status of your and others patches, visit [SlimRoms Code Review](http://gerrit.slimroms.net)
+We do not have Gerrit, so you will need to send a pull request via github. If you do not know how to do this, or find out how to do this, you shouldn't be here. Go home.
