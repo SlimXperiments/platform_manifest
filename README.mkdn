@@ -21,3 +21,8 @@ Submitting Patches
 Submitting a patch is always welcome, provided it does not break the build.
 
 We do not have Gerrit, so you will need to send a pull request via github. If you do not know how to do this, or find out how to do this, you shouldn't be here. Go home.
+
+Questions?
+----------
+
+We can't answer anything else on here, but if you have any specific questions, join us on freenode at #SlimX
