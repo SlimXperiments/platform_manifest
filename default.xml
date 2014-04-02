@@ -281,7 +281,7 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="slimX" revision="slim-master" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="slimX" revision="slim-master" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom" remote="slimX" revision="slim-master" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="slimX" revision="slim-master" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
