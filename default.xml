@@ -463,7 +463,7 @@
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="kk4.4" />
-  <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
+  <project path="packages/apps/SlimCenter" name="SlimXperiments/packages_apps_SlimCenter" remote="github" revision="slim-master" />
 
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" remote="github" revision="kk4.4" />
