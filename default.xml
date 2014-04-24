@@ -22,7 +22,7 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="slimX" revision="slim-master" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="slimX" revision="slim-master" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="slimX" revision="slim-master2" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="android_dalvik" remote="slimX" revision="slim-master" />
   <project path="developers/build" name="platform/developers/build" />
