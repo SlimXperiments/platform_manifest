@@ -26,3 +26,9 @@ Questions?
 ----------
 
 We can't answer anything else on here, but if you have any specific questions, join us on freenode at #SlimX
+
+Build Issues?
+-------------
+
+Often build issues occur due to a merge error, or with untested projects (such as the exynos sources).
+We try to avoid these errors. If you encounter any, join us on Freenode at #SlimX.
