@@ -19,16 +19,15 @@ TARGET_USES_CAF_FEATURES := true
 Java
 ----
 
-SlimX uses Java 1.7 by default. Java 1.6 can be used by enabling
+SlimX uses Java 1.7 by default. Java 1.6 can be used by setting.. 
 
 ```shell
-LEGACY_USE_JAVA6
+export LEGACY_USE_JAVA6=1
 ```
-for Oracle JDK and
+To use openJDK 6, use.. 
 ```shell
-LEGACY_USE_OPENJDK6
+export LEGACY_USE_OPENJDK6=1
 ```
-for the OpenJDK.
 
 Submitting Patches
 ------------------
