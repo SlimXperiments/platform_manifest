@@ -11,9 +11,23 @@ I assume you already know how to start an Android project, so here is the link t
 ```shell
 repo init -u git://github.com/SlimXperiments/platform_manifest -b slim-master
 ```
-for now, there is no caf branch. Caf devices will feel the pain in the future.
+there is no caf branch. Caf devices can feel the pain by setting in the device tree
+```shell
+TARGET_USES_CAF_FEATURES := true
+```
 
+Java
+----
 
+SlimX uses Java 1.7 by default. Java 1.6 can be used by setting.. 
+
+```shell
+export LEGACY_USE_JAVA6=1
+```
+To use openJDK 6, use.. 
+```shell
+export LEGACY_USE_OPENJDK6=1
+```
 
 Submitting Patches
 ------------------
