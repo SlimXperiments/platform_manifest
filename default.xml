@@ -488,4 +488,6 @@
   <project path="external/exfat" name="SlimRoms/android_external_exfat" remote="github" revision="kk4.4" />
   <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="kk4.4" />
   <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="kk4.4"  />
+
+  <project path="vendor/chainfire" name="SlimXperiments/vendor_chainfire" remote="github" revision="slim-master" />
 </manifest>
